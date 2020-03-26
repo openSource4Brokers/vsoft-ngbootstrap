@@ -3,17 +3,13 @@
     <a routerLink="/home" class="navbar-brand">{{ 'NAVBAR.NavTitle' | translate }}</a>
 
     <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-      <!-- <span class="navbar-toggler-icon"></span> -->
       <fa-icon class="fa-1x mb-2" [icon]="faBars"></fa-icon>
       <span class=""></span>
     </button>
 
     <div class="collapse navbar-collapse" id="navbarCollapse">
       <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a routerLink="/home" class="nav-link">Home</a>
-        </li>
-
+        
         <li class="nav-item">
           <a routerLink="/contact" class="nav-link">{{ 'NAVBAR.NavContact' | translate }}</a>
         </li>
@@ -25,13 +21,9 @@
         <li class="nav-item">
           <a routerLink="/hosting" class="nav-link">Hosting</a>
         </li>
-        <!-- <li class="nav-item">
+        <li class="nav-item">
           <a routerLink="/about" class="nav-link">{{ 'NAVBAR.NavAbout' | translate }}</a>
         </li>
-
-        <li class="nav-item">
-          <a routerLink="/blog" class="nav-link">{{ 'NAVBAR.NavBlog' | translate }}</a>
-        </li> -->
 
         <button class="nav-item btn btn-outline-dark"></button>
 

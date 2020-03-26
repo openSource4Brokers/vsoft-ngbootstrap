@@ -60,9 +60,8 @@
   },
 
   "NAVBAR": {
-    "NavTitle": "Vsoft Administratieve Software",
+    "NavTitle": "Vsoft diensten",
     "NavAbout": "Over Ons",
-    "NavBlog": "Blog",
     "NavContact": "Contact",
     "NavSettings": "Instellingen",
     "LanguageModalTitle": "Kies uw taal:",

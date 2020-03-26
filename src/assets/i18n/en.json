@@ -60,9 +60,8 @@
   },
 
   "NAVBAR": {
-    "NavTitle": "Vsoft Service",
+    "NavTitle": "Vsoft Services",
     "NavAbout": "About Us",
-    "NavBlog": "Blog",
     "NavContact": "Contact Us",
     "NavSettings": "Settings",
     "LanguageModalTitle": "Select your language:",

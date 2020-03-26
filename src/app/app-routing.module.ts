@@ -29,11 +29,6 @@ const routes: Routes = [
     loadChildren: () =>
       import('./pages/about/about.module').then(m => m.AboutModule)
   },
-  {
-    path: 'blog',
-    loadChildren: () =>
-      import('./pages/blog/blog.module').then(m => m.BlogModule)
-  },
   { path: '**', redirectTo: 'home', pathMatch: 'full' }
 ];
 
