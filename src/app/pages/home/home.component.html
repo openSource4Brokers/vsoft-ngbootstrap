@@ -1,0 +1,222 @@
+<!-- SECTION CAROUSEL -->
+<section id="showcase">
+  <carousel>
+    <slide>
+      <img src="{{ 'HOME.Carousel-Image1' | translate }}" alt="first slide" style="display: block; width: 100%;">
+      <div class="carousel-caption d-md-block">
+        <h1 class="display-3">{{ 'HOME.Carousel-Label1' | translate }}</h1>
+        <p class="lead">{{ 'HOME.Carousel-Info1' | translate }}</p>
+        <a href="{{ 'HOME.Carousel-Link1' | translate }}" target="_blank"
+          class="btn btn-danger btn-lg">{{ 'HOME.Carousel-Button1' | translate }}</a>
+      </div>
+    </slide>
+    <slide>
+      <img src="{{ 'HOME.Carousel-Image2' | translate }}" alt="second slide" style="display: block; width: 100%;">
+      <div class="carousel-caption d-md-block">
+        <h1 class="display-3">{{ 'HOME.Carousel-Label2' | translate }}</h1>
+        <p class="lead">{{ 'HOME.Carousel-Info2' | translate }}</p>
+        <a href="{{ 'HOME.Carousel-Link2' | translate }}" target="_blank"
+          class="btn btn-danger btn-lg">{{ 'HOME.Carousel-Button2' | translate }}</a>
+      </div>
+    </slide>
+    <slide>
+      <img src="{{ 'HOME.Carousel-Image3' | translate }}" alt="third slide" style="display: block; width: 100%;">
+      <div class="carousel-caption d-md-block">
+        <h1 class="display-3">{{ 'HOME.Carousel-Label3' | translate }}</h1>
+        <p class="lead">{{ 'HOME.Carousel-Info3' | translate }}</p>
+        <a href="{{ 'HOME.Carousel-Link3' | translate }}" target="_blank"
+          class="btn btn-primary btn-lg">{{ 'HOME.Carousel-Button3' | translate }}</a>
+      </div>
+    </slide>
+  </carousel>
+</section>
+
+<!--SECTION ICON (FONTAWESOME 6!) -->
+<section id="home-icons" class="py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 mb-4 text-center">
+        <i>
+          <fa-icon class="fa-3x mb-2" [icon]="faBook"></fa-icon>
+        </i>
+        <h3>{{ 'HOME.Icon-Label1' | translate }}</h3>
+        <p>{{ 'HOME.Icon-SubLabel1' | translate }}</p>
+      </div>
+      <div class="col-md-4 mb-4 text-center">
+        <i>
+          <fa-icon class="fa-3x mb-2" [icon]="faCloud"></fa-icon>
+        </i>
+        <h3>{{ 'HOME.Icon-Label2' | translate }}</h3>
+        <p>{{ 'HOME.Icon-SubLabel2' | translate }}</p>
+      </div>
+      <div class="col-md-4 mb-4 text-center">
+        <i>
+          <fa-icon class="fa-3x mb-2" [icon]="faMobile"></fa-icon>
+        </i>
+        <h3>{{ 'HOME.Icon-Label3' | translate }}</h3>
+        <p>{{ 'HOME.Icon-SubLabel3' | translate }}</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SECTION HEADING -->
+<!-- <section id="home-heading" class="p-5">
+    <div class="dark-overlay">
+        <div class="row">
+            <div class="col">
+                <div class="container pt-5">
+                    <h1>Are You Ready To Get Started?</h1>
+                    <p class="d-none d-md-block">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est eaque
+                        magni sit
+                        dolores. Nisi, dolor nam modi perspiciatis
+                        consequatur soluta.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section> -->
+
+<!-- SECTION INFO -->
+<section id="info" class="py-3">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 align-self-center">
+        <h3>{{ 'HOME.Info-Label' | translate }}</h3>
+        <p>{{ 'HOME.Info-SubInfo' | translate }}</p>
+        <a routerLink="{{ 'HOME.Info-RouterLink' | translate }}"
+          class="btn btn-outline-danger btn-lg">{{ 'HOME.Info-Button' | translate }}</a>
+      </div>
+      <div class="col-md-6">
+        <img src="{{ 'HOME.Info-Image' | translate }}" alt="" class="img-fluid">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- STILL TODO !! -->
+<!-- SECTION VIDEO PLAY -->
+<!-- <section id="video-play">
+    <div class="dark-overlay">
+      <div class="row">
+        <div class="col">
+          <div class="container p-5">
+            <a href="#" class="video" data-video="https://www.youtube.com/embed/HnwsG9a5riA" data-toggle="modal"
+              data-target="#videoModal">
+              <i class="fas fa-play fa-3x"></i>
+            </a>
+            <h1>See What We Do</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+<!-- SECTION PHOTO GALLERY -->
+<!-- <section id="gallery" class="py-5">
+    <div class="container">
+      <h1 class="text-center">Photo Gallery</h1>
+      <p class="text-center">Check out our photos</p>
+      <div class="row mb-4">
+        <div class="col-md-4">
+          <a href="https://source.unsplash.com/random/560x560" data-toggle="lightbox" data-gallery="img-gallery"
+            data-height="560" data-width="560">
+            <img src="https://source.unsplash.com/random/560x560" alt="" class="img-fluid">
+          </a>
+        </div>
+  
+        <div class="col-md-4">
+          <a href="https://source.unsplash.com/random/561x561" data-toggle="lightbox" data-gallery="img-gallery"
+            data-height="561" data-width="561">
+            <img src="https://source.unsplash.com/random/561x561" alt="" class="img-fluid">
+          </a>
+        </div>
+  
+        <div class="col-md-4">
+          <a href="https://source.unsplash.com/random/562x562" data-toggle="lightbox" data-gallery="img-gallery"
+            data-height="562" data-width="562">
+            <img src="https://source.unsplash.com/random/562x562" alt="" class="img-fluid">
+          </a>
+        </div>
+      </div>
+  
+      <div class="row mb-4">
+        <div class="col-md-4">
+          <a href="https://source.unsplash.com/random/563x563" data-toggle="lightbox" data-gallery="img-gallery"
+            data-height="563" data-width="563">
+            <img src="https://source.unsplash.com/random/563x563" alt="" class="img-fluid">
+          </a>
+        </div>
+  
+        <div class="col-md-4">
+          <a href="https://source.unsplash.com/random/564x564" data-toggle="lightbox" data-gallery="img-gallery"
+            data-height="564" data-width="564">
+            <img src="https://source.unsplash.com/random/564x564" alt="" class="img-fluid">
+          </a>
+        </div>
+  
+        <div class="col-md-4">
+          <a href="https://source.unsplash.com/random/565x565" data-toggle="lightbox" data-gallery="img-gallery"
+            data-height="565" data-width="565">
+            <img src="https://source.unsplash.com/random/565x565" alt="" class="img-fluid">
+          </a>
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+<!-- SECTION NEWSLETTER -->
+<!-- <section id="newsletter" class="text-center p-5 bg-dark text-white">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h1>Sign Up For Our Newsletter</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio asperiores consectetur, quae ducimus
+            voluptates
+            vero repellendus architecto maiores recusandae mollitia?</p>
+          <form class="form-inline justify-content-center">
+            <input type="text" class="form-control mb-2 mr-2" placeholder="Enter Name">
+            <input type="text" class="form-control mb-2 mr-2" placeholder="Enter Email">
+            <button class="btn btn-primary mb-2">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+<!-- VIDEO MODAL -->
+<!-- <div class="modal fade" id="videoModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <button class="close" data-dismiss="modal">
+            <span>&times;</span>
+          </button>
+          <iframe src="" frameborder="0" height="350" width="100%" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div> -->
+
+<script>
+  // Lightbox Init
+  $(document).on('click', '[data-toggle="lightbox"]', function (event) {
+    event.preventDefault();
+    $(this).ekkoLightbox();
+  });
+
+  // Video Play
+  $(function () {
+    // Auto play modal video
+    $(".video").click(function () {
+      var theModal = $(this).data("target"),
+        videoSRC = $(this).attr("data-video"),
+        videoSRCauto = videoSRC + "?modestbranding=1&rel=0&controls=0&showinfo=0&html5=1&autoplay=1";
+      $(theModal + ' iframe').attr('src', videoSRCauto);
+      $(theModal + ' button.close').click(function () {
+        $(theModal + ' iframe').attr('src', videoSRC);
+      });
+    });
+  });
+
+</script>

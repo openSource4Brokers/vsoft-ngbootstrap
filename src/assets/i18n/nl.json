@@ -1,0 +1,75 @@
+{
+  "COMMON": {
+    "BoxLabel1": "Beter",
+    "BoxLabel2": "Slimmer",
+    "BoxLabel3": "Sneller",
+    "BoxLabel4": "Sterker"
+  },
+
+  "HOME": {
+    "Carousel-Image1": "assets/img/image1.jpg",
+    "Carousel-Link1": "https://rv.be/marIntegraal/Servicecontract.aspx",
+    "Carousel-Label1": "marIntegraal 1985",
+    "Carousel-Info1": "",
+    "Carousel-Button1": "Bestellen",
+
+    "Carousel-Image2": "assets/img/image2.jpg",
+    "Carousel-Link2": "https://rv.be/marIntegraal/Hosting.aspx",
+    "Carousel-Label2": "Hosting 2000",
+    "Carousel-Info2": "",
+    "Carousel-Button2": "Meer Info",
+
+    "Carousel-Image3": "assets/img/image3.jpg",
+    "Carousel-Link3": "https://my.rv-services.be/",
+    "Carousel-Label3": "Web Apps 2003",
+    "Carousel-Info3": "",
+    "Carousel-Button3": "Meer info",
+
+    "Info-Image": "assets/img/laptop.png",
+    "Info-RouterLink": "/contact",
+    "Info-Label": "Contacteer ons",
+    "Info-SubInfo": "",
+    "Info-Button": "Contact Pagina",
+
+    "Icon-Label1": "Bedrijfsbeheer",
+    "Icon-SubLabel1": "Boekhoud- en administratie pakket naar Belgisch recht",
+    "Icon-Label2": "Plesk Hosting",
+    "Icon-SubLabel2": "Moderne Dotnet Core 3.1 https hosting en webmail",
+    "Icon-Label3": "PWA Apps",
+    "Icon-SubLabel3": "Consultatie Apps voor uw klanten"
+  },
+  
+  "CONTACT": {
+    "Title": "Neem contact op",
+    "TitleIntro": "",
+    "LocationLabel": "Ons Kantoor",
+    "IntroLabel": "Maak een afspraak (aanbevolen)",
+    "AddressLabel": "Adres",
+    "MailLabel": "Email",
+    "PhoneLabel": "Telefoon",
+    "MessageTitle": "Stuur een bericht",
+    "MessageNameLabel": "Naam en Voornaam *",
+    "MessageRRLabel": "Rijksregister (11 cijfers)",
+    "MessageMailLabel": "Email *",
+    "MessagePhoneLabel": "Telefoon",
+    "MessageTextLabel": "Uw bericht *",
+    "CheckCCLabel": "Stuur mij eveneens een kopie",
+    "MessageSendLabel": "Verzenden",
+    "SendSuccess": "Verzenden is gelukt",
+    "SendFailed": "Verzenden is mislukt"
+  },
+
+  "NAVBAR": {
+    "NavTitle": "Vsoft Administratieve Software",
+    "NavAbout": "Over Ons",
+    "NavBlog": "Blog",
+    "NavContact": "Contact",
+    "NavSettings": "Instellingen",
+    "LanguageModalTitle": "Kies uw taal:",
+    "LanguageModalCloseBtnName": "Sluiten"
+  },
+
+  "FOOTER": {
+    "Title": "Vermoesen Beheer Gcv"
+  }
+}
