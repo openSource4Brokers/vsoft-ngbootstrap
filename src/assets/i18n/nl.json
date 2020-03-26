@@ -11,19 +11,19 @@
     "Carousel-Link1": "https://rv.be/marIntegraal/Servicecontract.aspx",
     "Carousel-Label1": "marIntegraal 1985",
     "Carousel-Info1": "",
-    "Carousel-Button1": "Bestellen",
+    "Carousel-Button1": "Info",
 
     "Carousel-Image2": "assets/img/image2.jpg",
     "Carousel-Link2": "https://rv.be/marIntegraal/Hosting.aspx",
     "Carousel-Label2": "Hosting 2000",
     "Carousel-Info2": "",
-    "Carousel-Button2": "Meer Info",
+    "Carousel-Button2": "Info",
 
     "Carousel-Image3": "assets/img/image3.jpg",
     "Carousel-Link3": "https://my.rv-services.be/",
     "Carousel-Label3": "Web Apps 2003",
     "Carousel-Info3": "",
-    "Carousel-Button3": "Meer info",
+    "Carousel-Button3": "Externe pagina",
 
     "Info-Image": "assets/img/laptop.png",
     "Info-RouterLink": "/contact",
@@ -61,7 +61,7 @@
 
   "NAVBAR": {
     "NavTitle": "Vsoft diensten",
-    "NavAbout": "Over Ons",
+    "NavAbout": "Deze App",
     "NavContact": "Contact",
     "NavSettings": "Instellingen",
     "LanguageModalTitle": "Kies uw taal:",

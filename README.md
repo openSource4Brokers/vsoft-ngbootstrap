@@ -52,10 +52,7 @@ Before building, set resolveJsonModule to 'true' :
 - Generate modules ex. an a home module: `ng generate module pages/home --route home --module app.module`
 - Generate modules ex. a contact module: `ng generate module pages/contact --route contact --module app.module`
 ## Good practice: Updating Angular 9
-This app is on Angular 9.
-Before starting an update to latest version of 9, you have to commit first
-
-update to latest Angular 8:
+This app is on Angular 9.  Update to latest Angular 9 with:
 `ng update @angular/cli@9 @angular/core@9`
 
 Follow the instructions eventualy for fixes
