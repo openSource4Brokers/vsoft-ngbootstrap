@@ -53,10 +53,10 @@
     "MessageMailLabel": "Email *",
     "MessagePhoneLabel": "Telefoon",
     "MessageTextLabel": "Uw bericht *",
-    "CheckCCLabel": "Stuur mij eveneens een kopie",
+    "CheckCCLabel": "Bezorg me eveneens een kopie",
     "MessageSendLabel": "Verzenden",
-    "SendSuccess": "Verzenden is gelukt",
-    "SendFailed": "Verzenden is mislukt"
+    "SendSuccess": "Verzending is gelukt",
+    "SendFailed": "Verzending is mislukt"
   },
 
   "NAVBAR": {
