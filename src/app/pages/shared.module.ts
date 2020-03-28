@@ -6,11 +6,11 @@ import { MdToHtmlPipe } from '../_helpers/md-to-html.pipe';
 
 @NgModule({
   declarations: [
-    MdToHtmlPipe
+    MdToHtmlPipe // so we use already for a pipe
     // appDirective
   ],
   exports: [
-    MdToHtmlPipe
+    MdToHtmlPipe // so we use already for a pipe
     // appDirective
   ]
 })

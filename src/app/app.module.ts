@@ -1,3 +1,4 @@
+import { CoronaService } from './_services/corona.service';
 import { NgModule } from '@angular/core';
 import { LocationStrategy, HashLocationStrategy } from '@angular/common';
 import { HttpClientModule, HttpClient } from '@angular/common/http';
@@ -47,6 +48,7 @@ import { FooterComponent } from './footer/footer.component';
   providers: [
     LanguageService,
     MailService,
+    CoronaService,
     BsModalRef,
     { provide: LocationStrategy, useClass: HashLocationStrategy }
   ],

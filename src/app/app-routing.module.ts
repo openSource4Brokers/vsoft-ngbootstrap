@@ -29,6 +29,11 @@ const routes: Routes = [
     loadChildren: () =>
       import('./pages/about/about.module').then(m => m.AboutModule)
   },
+  {
+    path: 'corona',
+    loadChildren: () =>
+      import('./pages/corona/corona.module').then(m => m.CoronaModule)
+  },
   { path: '**', redirectTo: 'home', pathMatch: 'full' }
 ];
 
