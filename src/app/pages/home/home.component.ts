@@ -15,9 +15,9 @@ import { faMobile } from '@fortawesome/free-solid-svg-icons';
   ]
 })
 export class HomeComponent implements OnInit {
-  faBook = faBook;
-  faCloud = faCloud;
-  faMobile = faMobile ;
+  faAccounting = faBook;
+  faHosting = faCloud;
+  faApps = faMobile ;
 
   constructor() {}
 

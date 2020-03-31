@@ -1,4 +1,5 @@
 GET https://jsonplaceholder.typicode.com/posts
+Authorization: Client-ID YOUR_ACCESS_KEY
 
 ###
 POST https://jsonplaceholder.typicode.com/posts

@@ -7,24 +7,33 @@
   },
 
   "HOME": {
-    "Carousel-Image1": "assets/img/image1.jpg",
-    "Carousel-Link1": "https://rv.be/marIntegraal/Servicecontract.aspx",
-    "Carousel-Label1": "marIntegraal 1985",
-    "Carousel-Info1": "",
-    "Carousel-Button1": "Info",
+    "Carousel-Image1": "assets/images/home/carousel-accounting.jfif",
+    "Carousel-Alt1": "eerste slide",
+    "Carousel-Link1": "/marintegraal",
+    "Carousel-TargetLink1": "_self",
+    "Carousel-Title1": "marIntegraal 1985",
+    "Carousel-SubTitle1": "Boekhoud- en administratiepakket naar belgisch recht",
+    "Carousel-ButtonLabel1": "Info",
+    "Carousel-ButtonClass1": "btn btn-primary btn-lg",
 
-    "Carousel-Image2": "assets/img/image2.jpg",
-    "Carousel-Link2": "https://rv.be/marIntegraal/Hosting.aspx",
-    "Carousel-Label2": "Hosting 2000",
-    "Carousel-Info2": "",
-    "Carousel-Button2": "Info",
-
-    "Carousel-Image3": "assets/img/image3.jpg",
+    "Carousel-Image2": "assets/images/home/carousel-hosting.jfif",
+    "Carousel-Alt2": "tweede slide",
+    "Carousel-Link2": "/hosting",
+    "Carousel-TargetLink2": "_self",
+    "Carousel-Title2": "Hosting 2000",
+    "Carousel-SubTitle2": "Dotnet Core 3.1 https hosting en mail diensten",
+    "Carousel-ButtonLabel2": "Info",
+    "Carousel-ButtonClass2": "btn btn-success btn-lg",
+    
+    "Carousel-Image3": "assets/images/home/carousel-apps.jfif",
+    "Carousel-Alt3": "derde slide",
     "Carousel-Link3": "https://my.rv-services.be/",
-    "Carousel-Label3": "Web Apps 2003",
-    "Carousel-Info3": "",
-    "Carousel-Button3": "Externe pagina",
-
+    "Carousel-TargetLink3": "_blank",
+    "Carousel-Title3": "Web Apps 2003",
+    "Carousel-SubTitle3": "",
+    "Carousel-ButtonLabel3": "Info",
+    "Carousel-ButtonClass3": "btn btn-danger btn-lg",
+    
     "Info-Image": "assets/img/laptop.png",
     "Info-RouterLink": "/contact",
     "Info-Label": "Contacteer ons",
@@ -70,5 +79,15 @@
 
   "FOOTER": {
     "Title": "Vermoesen Beheer Gcv"
+  },
+
+  "ABOUT": {
+    "MainTitle": "Over deze App",
+    "MainSub": "Eenvoudige single page toepassing ontwikkeld met Angular en o.a. ngx-translate.",
+    "OpenSourceTitle": "Open Source",
+    "OpenSourceSub": "Op onze github pagina vind U de broncode van deze toepassing voor download en studie.",
+    "GithubUrl": "https://github.com/openSource4Brokers/vsoft-ngbootstrap",
+    "GithubButton": "Broncode op Github",
+    "Image": "assets/images/about/about2.jfif"
   }
 }
