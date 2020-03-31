@@ -1,11 +1,11 @@
-# ng-bootstrap - Vsoft open source Multi-language site using Angular and Bootstrap
+# ng-bootstrap - Open source Multi-language site using Angular and Bootstrap
 ## Getting started for users
 Working version here: [site](https://vsoft.be)
 
 marIntegraal users can get in touch for their own version of this app (including use of mail service via our dotnet core server)
 ## Getting started for developers
 - [Install NodeJS](https://nodejs.org/). Hint: eventually install and use [nvm](https://medium.com/@Joachim8675309/installing-node-js-with-nvm-4dc469c977d9) for easy installing and/or switching between node versions
-- Clone this repository: `git clone https://github.com/JosVermoesen/ngm-vsoft`.
+- Clone this repository: `git clone https://github.com/openSource4Brokers/vsoft-ngbootstrap`
 - Run `npm install` inside the project root.
 - Run `ng serve` in a terminal from the project root.
 - Profit. :tada:
