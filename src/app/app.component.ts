@@ -7,7 +7,6 @@ import { LanguageService } from './_services/language.service';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
-  title = 'ngm-vsoft';
 
   constructor(private ls: LanguageService) {}
 

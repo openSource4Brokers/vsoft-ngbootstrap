@@ -2,7 +2,7 @@
 <section id="showcase">
   <carousel>
     <!--
-    Use your own or generate some random suitable images:
+    Use your own images or generate some random suitable to your preferences
     https://source.unsplash.com/random/1920x1280/?accounting
     https://source.unsplash.com/random/1920x1280/?hosting
     https://source.unsplash.com/random/1920x1280/?apps
@@ -33,7 +33,7 @@
       <div class="carousel-caption d-md-block">
         <h1 class="display-3">{{ 'HOME.Carousel-Title3' | translate }}</h1>
         <p class="lead">{{ 'HOME.Carousel-SubTitle3' | translate }}</p>
-        <a routerLink="{{ 'HOME.Carousel-Link3' | translate }}" target="{{ 'HOME.Carousel-TargetLink3' | translate }}"
+        <a href="{{ 'HOME.Carousel-Link3' | translate }}" target="{{ 'HOME.Carousel-TargetLink3' | translate }}"
           class="{{ 'HOME.Carousel-ButtonClass3' | translate }}">{{ 'HOME.Carousel-ButtonLabel3' | translate }}</a>
       </div>
     </slide>
@@ -87,16 +87,17 @@
 </section> -->
 
 <!-- SECTION INFO -->
-<section id="info" class="py-3">
+<section id="info" class="py-1">
   <div class="container">
     <div class="row">
-      <div class="col-md-6 align-self-center">
+      <!-- <div class="col-md-6 align-self-center">
         <h3>{{ 'HOME.Info-Label' | translate }}</h3>
         <p>{{ 'HOME.Info-SubInfo' | translate }}</p>
         <a routerLink="{{ 'HOME.Info-RouterLink' | translate }}"
           class="btn btn-outline-danger btn-lg">{{ 'HOME.Info-Button' | translate }}</a>
       </div>
-      <div class="col-md-6">
+      <div class="col-md-6"> // change next line as needed! -->
+      <div class="col-md-12">
         <img src="{{ 'HOME.Info-Image' | translate }}" alt="" class="img-fluid">
       </div>
     </div>

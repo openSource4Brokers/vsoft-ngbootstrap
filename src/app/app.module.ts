@@ -1,7 +1,9 @@
+import { AccordionModule } from 'ngx-bootstrap/accordion';
+import { PoliciesComponent } from './_navbar/policies/policies.component';
 import { NgModule } from '@angular/core';
 import { LocationStrategy, HashLocationStrategy } from '@angular/common';
 import { HttpClientModule, HttpClient } from '@angular/common/http';
-import { BrowserModule } from '@angular/platform-browser';
+import { BrowserModule, Title } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -18,16 +20,17 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 import { LanguageService } from './_services/language.service';
 import { MailService } from './_services/mail.service';
-import { LanguageComponent } from './navbar/language/language.component';
-import { NavbarComponent } from './navbar/navbar.component';
-import { FooterComponent } from './footer/footer.component';
+import { LanguageComponent } from './_navbar/language/language.component';
+import { NavbarComponent } from './_navbar/navbar.component';
+import { FooterComponent } from './_footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LanguageComponent,
+    PoliciesComponent,
     NavbarComponent,
-    FooterComponent
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
@@ -37,20 +40,22 @@ import { FooterComponent } from './footer/footer.component';
       loader: {
         provide: TranslateLoader,
         useFactory: createTranslateLoader,
-        deps: [HttpClient]
-      }
+        deps: [HttpClient],
+      },
     }),
     ModalModule.forRoot(),
+    AccordionModule.forRoot(),
     FontAwesomeModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [
+    Title,
     LanguageService,
     MailService,
     BsModalRef,
-    { provide: LocationStrategy, useClass: HashLocationStrategy }
+    { provide: LocationStrategy, useClass: HashLocationStrategy },
   ],
-  entryComponents: [LanguageComponent],
-  bootstrap: [AppComponent]
+  entryComponents: [LanguageComponent, PoliciesComponent],
+  bootstrap: [AppComponent],
 })
 export class AppModule {}

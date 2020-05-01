@@ -5,21 +5,27 @@ import { CarouselConfig } from 'ngx-bootstrap/carousel';
 import { faBook } from '@fortawesome/free-solid-svg-icons';
 import { faCloud } from '@fortawesome/free-solid-svg-icons';
 import { faMobile } from '@fortawesome/free-solid-svg-icons';
+import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.css'],
   providers: [
-    { provide: CarouselConfig, useValue: { interval: 2000, noPause: true, showIndicators: true } }
-  ]
+    {
+      provide: CarouselConfig,
+      useValue: { interval: 2000, noPause: true, showIndicators: true },
+    },
+  ],
 })
 export class HomeComponent implements OnInit {
   faAccounting = faBook;
   faHosting = faCloud;
-  faApps = faMobile ;
+  faApps = faMobile;
 
-  constructor() {}
+  constructor(private titleService: Title) {}
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    this.titleService.setTitle('Vsoft Services');
+  }
 }

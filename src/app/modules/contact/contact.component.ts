@@ -10,11 +10,12 @@ import { environment } from '../../../environments/environment';
 import { Contactmail } from './../../_models/contactmail';
 import { MailService } from './../../_services/mail.service';
 import { OfficeComponent } from './office/office.component';
+import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-contact',
   templateUrl: './contact.component.html',
-  styleUrls: ['./contact.component.css']
+  styleUrls: ['./contact.component.css'],
 })
 export class ContactComponent implements OnInit {
   bsModalRef: BsModalRef;
@@ -28,6 +29,7 @@ export class ContactComponent implements OnInit {
   busy = false;
 
   constructor(
+    private titleService: Title,
     private fb: FormBuilder,
     private modalService: BsModalService,
     private ms: MailService,
@@ -36,6 +38,7 @@ export class ContactComponent implements OnInit {
 
   ngOnInit(): void {
     this.createContactForm();
+    this.titleService.setTitle('Contacteer Vsoft');
   }
 
   onOfficeModal() {
@@ -43,10 +46,10 @@ export class ContactComponent implements OnInit {
     const lblCloseBtnName = 'Sluiten';
 
     const initialState = {
-      title: lblTitle
+      title: lblTitle,
     };
     this.bsModalRef = this.modalService.show(OfficeComponent, {
-      initialState
+      initialState,
     });
     this.bsModalRef.content.onSelected.subscribe(() => {
       // when closed do something eventualy
@@ -64,7 +67,7 @@ export class ContactComponent implements OnInit {
           this.ngxAlert('success', res);
         });
       },
-      error => {
+      (error) => {
         this.ts.get('CONTACT.SendFailed').subscribe((res: string) => {
           this.ngxAlert('danger', res);
           this.busy = false;
@@ -90,15 +93,15 @@ export class ContactComponent implements OnInit {
         [
           Validators.required,
           Validators.minLength(11),
-          Validators.maxLength(11)
-        ]
+          Validators.maxLength(11),
+        ],
       ],
       email: [
         null,
         Validators.compose([
           Validators.required,
-          Validators.pattern('^[a-z0-9._%+-]+@[a-z0-9.-]+.[a-z]{2,4}$')
-        ])
+          Validators.pattern('^[a-z0-9._%+-]+@[a-z0-9.-]+.[a-z]{2,4}$'),
+        ]),
       ],
       phone: [null],
       copySender: [true],
@@ -107,7 +110,7 @@ export class ContactComponent implements OnInit {
       data: [null],
       apiGuid: [environment.apiVsoftMailGuid, Validators.required],
       apiMailKey: [environment.apiVsoftSendFromAddress, Validators.required],
-      apiNameKey: [environment.apiVsoftSendFromName, Validators.required]
+      apiNameKey: [environment.apiVsoftSendFromName, Validators.required],
     });
   }
 
@@ -115,11 +118,11 @@ export class ContactComponent implements OnInit {
     this.alerts.push({
       type: ofType,
       msg: message,
-      timeout: 2000
+      timeout: 2000,
     });
   }
 
   onClosed(dismissedAlert: AlertComponent): void {
-    this.alerts = this.alerts.filter(alert => alert !== dismissedAlert);
+    this.alerts = this.alerts.filter((alert) => alert !== dismissedAlert);
   }
 }
