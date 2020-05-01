@@ -1,4 +1,4 @@
-# ng-bootstrap - Open source Multi-language site using Angular and Bootstrap
+# Multi-language landing page using Angular and Bootstrap
 ## Getting started for users
 Working version here: [site1](https://vsoft.be)
 Working version here: [site2](https://etsppieters.be)
